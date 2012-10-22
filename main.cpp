@@ -233,8 +233,6 @@ void InitTSB(List *TSB, PC &TS){
 	TMP->speed=10;
 	TMP->x=TS.x;
 	TMP->y=TS.y;
-
-	TSB->next=NULL;
 }
 
 List* Fire(List *TSB, PC &TS){
